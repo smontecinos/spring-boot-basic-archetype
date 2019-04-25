@@ -13,10 +13,15 @@ Archetype project created in D:\otros\workspace_seba\prueba-arquetipo\target\gen
 # Usar arquetipo Java Spring Boot Maven
 
 * Descargar proyecto via git
+```
 git clone https://github.com/smontecinos/spring-boot-basic-archetype.git
+```
 * Ejecutar el comando en la raíz del proyecto
+```
 mvn clean install
+```
 * Dirigirse a una nueva carpeta donde se quiera crear un proyecto, debe estar vacía
 * Ejecutar el comando cambiando los datos de DgroupId, DartifactId, Dversion según se requiera
-
+```
 mvn archetype:generate -DarchetypeGroupId=cl.arquetipo -DarchetypeArtifactId=prueba-arquetipo-archetype -DarchetypeVersion=0.0.1-SNAPSHOT -DgroupId=my.groupid -DartifactId=my-artifactId -Dversion=1.0.0
+```
