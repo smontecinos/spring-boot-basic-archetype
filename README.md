@@ -5,9 +5,9 @@
 * Abrir cmd y ejecutar con versión java 8
 * Ir al directorio del proyecto
 * Ejecutar mvn archetype:create-from-project
-
+```
 Archetype project created in D:\otros\workspace_seba\prueba-arquetipo\target\generated-sources\archetype
-
+```
 * Subir al git los directorios internos de la ruta anteriormente extraida
 
 # Usar arquetipo Java Spring Boot Maven
